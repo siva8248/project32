@@ -9,7 +9,6 @@ var b32,b33,b34,b35,b36,b37,b38;
 var backgroundImg;
 
 function preload() {
-  getTime();
 }
 
 function setup() {
@@ -62,6 +61,7 @@ function draw() {
   if(backgroundImg)
       background(backgroundImg);
       Engine.update(engine);
+      getTime();
       gd1.display();
       obj.display();
       sl.display(); 
