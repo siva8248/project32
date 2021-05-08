@@ -62,6 +62,7 @@ function draw() {
       background(backgroundImg);
       Engine.update(engine);
       getTime();
+  getTime();
       gd1.display();
       obj.display();
       sl.display(); 
