@@ -122,7 +122,7 @@ async function getTime(){
   var responseJSON = await response.json();
   var datetime = responseJSON.datetime;
   var hour = datetime.slice(11,13);
-  if(hour>=06 && hour<=18){
+  if(hour>06 && hour<18){
       bg = "bm.jpg";
   }
   else{
